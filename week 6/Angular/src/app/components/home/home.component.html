@@ -1,0 +1,39 @@
+<h1>{{ portalName }}</h1>
+
+<input
+  type="text"
+  placeholder="Search course"
+  [(ngModel)]="portalSearchTerm">
+
+<p>Searching for: {{ portalSearchTerm }}</p>
+
+<button
+  [disabled]="!isPortalActive"
+  (click)="onEnrollClick()">
+  Enroll Now
+</button>
+
+<hr>
+
+<p *ngIf="isLoading">Loading courses...</p>
+
+<div *ngIf="!isLoading">
+ <ng-container *ngIf="courses.length > 0; else noCourses">
+
+  <app-course-card
+  
+    *ngFor="let c of courses"
+    [course]="c"
+    (enrollRequested)="onEnroll($event)">
+  </app-course-card>
+
+</ng-container>
+
+<ng-template #noCourses>
+  <p>No courses available.</p>
+</ng-template>
+</div>
+
+<p *ngIf="selectedCourseId">
+  Selected course ID: {{ selectedCourseId }}
+</p>
