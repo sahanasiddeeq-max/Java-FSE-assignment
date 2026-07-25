@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43d36340-8e42-4036-a83f-5919b1894e8b" name="Changes" comment="" />
+    <list default="true" id="b1c0b23d-d219-40fa-aaa6-45647eb3a58c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,10 +25,10 @@
     </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8,
+  "associatedIndex": 7,
   "fromUser": false
 }]]></component>
-  <component name="ProjectId" id="3H06okYsHhgjLXFWQODyQ0m0wDs" />
+  <component name="ProjectId" id="3H048VRfdEjdlRD7VtSe6UkpUaf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,23 +36,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.LoanApplication.executor": "Run",
+    "Spring Boot.AccountApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="LoanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="AccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="loan" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cognizant.loan.LoanApplication" />
+      <module name="account" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cognizant.account.AccountApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -68,11 +64,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="43d36340-8e42-4036-a83f-5919b1894e8b" name="Changes" comment="" />
-      <created>1784992819642</created>
+      <changelist id="b1c0b23d-d219-40fa-aaa6-45647eb3a58c" name="Changes" comment="" />
+      <created>1784991496096</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1784992819642</updated>
+      <updated>1784991496096</updated>
     </task>
     <servers />
   </component>
