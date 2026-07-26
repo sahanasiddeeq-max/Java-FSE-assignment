@@ -1,0 +1,11 @@
+.card-enrolled {
+  background-color: #dff5df;
+}
+
+.card-full {
+  border: 2px solid blue;
+}
+
+.expanded {
+  padding: 20px;
+}
